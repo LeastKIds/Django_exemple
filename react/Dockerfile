@@ -10,7 +10,4 @@ COPY ./app /app
 
 RUN cd /app
 
-RUN npx create-react-app blogapi .
-RUN cd ./blogapi
-
 
